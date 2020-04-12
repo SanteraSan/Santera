@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "./Profile/Profile";
+// import Profile from "./Profile/Profile";
 import style from "./Style.module.css"
 import Dialogs from "./Dialogs/Dialogs"
 
