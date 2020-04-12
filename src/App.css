@@ -1,0 +1,17 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app_wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas:
+        "header header header"
+        "nav prof prof";
+    grid-gap: 4px;
+
+}
+

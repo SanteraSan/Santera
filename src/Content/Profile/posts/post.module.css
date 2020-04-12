@@ -1,0 +1,11 @@
+.post{
+    color: lightblue;
+}
+.post span{
+    color: wheat;
+}
+.post img{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}

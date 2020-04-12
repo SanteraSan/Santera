@@ -1,0 +1,7 @@
+.item{
+    color: brown;
+}
+.navigat{
+    background-color: #3f96ab;
+    grid-area: nav;
+}
