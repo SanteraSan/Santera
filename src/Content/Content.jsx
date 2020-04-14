@@ -7,13 +7,15 @@ import News from "./News/News";
 import Music from "./Music/Music";
 import Settings from "./Settings/Settings";
 
-const Content = () =>
+
+
+const Content = (props) =>
     <div className={style.content}>
-        <Route path={"/dialogs"} component={Dialogs}/>
-        <Route path={"/profile"} component={Profile}/>
-        <Route path={"/news"} component={News}/>
-        <Route path={"/music"} component={Music}/>
-        <Route path={"/settings"} component={Settings}/>
+        <Route path={"/dialogs"} render={() => <Dialogs messageData={props.messageData} itemsData={props.itemsData}/>}/>
+        <Route path={"/profile"} render={() => <Profile postsData={props.postsData}/>}/>
+        <Route path={"/news"} render={() => <News/>}/>
+        <Route path={"/music"} render={() => <Music/>}/>
+        <Route path={"/settings"} render={() => <Settings/>}/>
     </div>
 
 ;

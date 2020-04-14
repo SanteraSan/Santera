@@ -3,17 +3,18 @@ import './App.css';
 import Header from "./Content/Header/Header";
 import Navigation from "./Content/navigation/Navigate"
 import Content from "./Content/Content";
-import {BrowserRouter, Route} from "react-router-dom";
-import Dialogs from "./Content/Dialogs/Dialogs";
+import {BrowserRouter} from "react-router-dom";
 
-const App = () =>
-    <BrowserRouter>
+
+
+const App = (props) =>{
+    return(<BrowserRouter >
         <div className={'app_wrapper'}>
             <Header/>
             <Navigation/>
-            <Content/>
+            <Content messageData={props.messageData} itemsData={props.itemsData} postsData={props.postsData}/>
         </div>
         ;
-    </BrowserRouter>
+    </BrowserRouter>);}
 
 export default App

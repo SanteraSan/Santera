@@ -3,10 +3,9 @@
 }
 .item a{
     text-decoration: none;
-    color: aquamarine;
+    color: white;
 
 }
-
 .item .active{
-    color: rebeccapurple;
+    color: orange;
 }
