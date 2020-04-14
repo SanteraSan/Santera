@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "./Profile/Profile";
 import style from "./Style.module.css"
 import Dialogs from "./Dialogs/Dialogs"
-import {BrowserRouter, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 import News from "./News/News";
 import Music from "./Music/Music";
 import Settings from "./Settings/Settings";
@@ -17,4 +17,5 @@ const Content = () =>
     </div>
 
 ;
+
 export default Content

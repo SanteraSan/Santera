@@ -4,7 +4,7 @@ import s from "./item_dialog.module.css"
 
 const Items = (props) =>
     <div className={s.item}>
-        <NavLink activeClassName={s.active} to={props.link}>{props.name}</NavLink>
+        <NavLink activeClassName={s.active} to={"/dialogs/" + props.data.link}>{props.data.name}</NavLink>
     </div>
 ;
 

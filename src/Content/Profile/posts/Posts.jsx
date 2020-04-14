@@ -2,18 +2,16 @@ import React from "react";
 import Post from "./Post";
 import MyPosts from "./MyPosts";
 
-let obj = {
-    name:"John",
-    age : 33,
-    math : function (a,b) {
-        return a + b;
-    }
-};
 
-const Posts = () =>
-    <div className="Posts">
+
+const Posts = () =>{
+    let postsData = [
+        {id:1, greet:"hello", likeCounts:"15"},
+        {id:2, greet:"hi", likeCounts:"20"}
+    ];
+    return(<div className="Posts">
         <MyPosts/>
-        <Post message={"Hello"} like_counts = {15}/>
-        <Post message={"Hi"} like_counts = {20}/>
-    </div>;
+        <Post message={postsData[0]}/>
+        <Post message={postsData[1]}/>
+    </div>)};
     export default Posts

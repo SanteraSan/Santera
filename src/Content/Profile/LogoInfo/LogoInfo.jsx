@@ -1,9 +1,10 @@
 import React from "react";
 import InfoProfile from "./info";
 import LogoProfile from "./logo";
+import s from "./info_logo.module.css"
 
 const LogoInfo = () =>
-    <div className="info_logo">
+    <div className={s.info_logo}>
         <LogoProfile/>
         <InfoProfile/>
     </div>;

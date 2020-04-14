@@ -1,5 +1,6 @@
 .post{
     color: lightblue;
+
 }
 .post span{
     color: wheat;
@@ -8,4 +9,7 @@
     width: 50px;
     border: 1px solid black;
     border-radius: 50%;
+}
+.myPosts{
+    padding-bottom: 10px;
 }

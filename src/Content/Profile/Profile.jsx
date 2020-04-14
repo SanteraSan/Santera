@@ -5,10 +5,13 @@ import style from "./profile.module.css"
 
 const Profile = () =>
     <div className={style.prof}>
-        <img className={style.image} src="https://addons.cdn.mozilla.net/user-media/version-previews/full/2382/2382637.png?modified=1557783348"
+        <img className={style.image}
+             src="https://addons.cdn.mozilla.net/user-media/version-previews/full/2382/2382637.png?modified=1557783348"
              alt=""/>
-        <LogoInfo/>
-        <Posts/>
+        <div className={style.LogoInfoPosts}>
+            <LogoInfo/>
+            <Posts/>
+        </div>
     </div>
 ;
 export default Profile
