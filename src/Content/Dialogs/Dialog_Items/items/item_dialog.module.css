@@ -1,0 +1,12 @@
+.item{
+    padding-bottom: 10px;
+}
+.item a{
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+.item .active{
+    color: rebeccapurple;
+}

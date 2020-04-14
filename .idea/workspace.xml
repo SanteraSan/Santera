@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Music/Music.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Music/Music.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/News/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/News/News.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Settings/Settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Settings/Settings.modele.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,18 +59,19 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\navigation" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\Header" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\Profile" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\jsx" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,7 +108,10 @@
       <workItem from="1586678952799" duration="4857000" />
       <workItem from="1586706896612" duration="93000" />
       <workItem from="1586707009581" duration="576000" />
-      <workItem from="1586722723431" duration="623000" />
+      <workItem from="1586722723431" duration="851000" />
+      <workItem from="1586762303486" duration="2524000" />
+      <workItem from="1586786995678" duration="5275000" />
+      <workItem from="1586830109109" duration="9167000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -94,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586707221075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="before path">
+      <created>1586724713279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586724713279</updated>
+    </task>
+    <task id="LOCAL-00003" summary="before path">
+      <created>1586724748700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586724748700</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dialogs.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="dialogs.css" />
+    <MESSAGE value="before path" />
+    <option name="LAST_COMMIT_MESSAGE" value="before path" />
   </component>
 </project>

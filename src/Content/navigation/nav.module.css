@@ -1,7 +1,12 @@
-.item{
-    color: brown;
+.item a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.item .active{
+    color: gold;
 }
 .navigat{
     background-color: #3f96ab;
     grid-area: nav;
+    padding: 20px;
 }
