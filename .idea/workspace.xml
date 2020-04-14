@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/info_logo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/profile.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +40,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -102,7 +92,8 @@
       <workItem from="1586722723431" duration="851000" />
       <workItem from="1586762303486" duration="2524000" />
       <workItem from="1586786995678" duration="5275000" />
-      <workItem from="1586830109109" duration="22024000" />
+      <workItem from="1586830109109" duration="22188000" />
+      <workItem from="1586871586317" duration="2399000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -132,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586840036368</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dev-working">
+      <created>1586861026738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586861026738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
