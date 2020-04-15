@@ -8,7 +8,7 @@ const AvaFriend = (props) => {
     return (
         <div className={s.avatar}>
             {/*{Avas}*/}
-            <NavLink className={s.imgLink} to={"/dialogs/" + props.state.link}>{props.state.img}</NavLink>
+            <NavLink className={s.imgLink} to={"/profile/" + props.state.link}>{props.state.img}</NavLink>
         </div>)
 };
 export default AvaFriend

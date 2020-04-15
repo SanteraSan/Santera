@@ -5,7 +5,10 @@
 
 .messages {
     padding: 10px;
-
+    height: 70%;
+    max-width: 810px;
+    overflow: auto;
+    border-bottom: 1px solid black;
 }
 .message{
     display: block;
