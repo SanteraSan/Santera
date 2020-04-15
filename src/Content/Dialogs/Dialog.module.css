@@ -5,4 +5,22 @@
 
 .messages {
     padding: 10px;
+
+}
+.message{
+    display: block;
+    background-color: lightblue;
+    width: 45%;
+    margin-bottom: 1px;
+    border-radius: 15px;
+}
+.home{
+    text-align: left;
+    padding: 5px;
+}
+.guest{
+    padding: 5px 30px 5px 0px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
 }

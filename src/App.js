@@ -10,7 +10,7 @@ const App = (props) => {
     return (<BrowserRouter>
         <div className={'app_wrapper'}>
             <Header/>
-            <Navigation/>
+            <Navigation state={props.state.dialogsPage}/>
             <Content state={props.state}/>
         </div>
         ;

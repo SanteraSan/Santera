@@ -1,11 +1,24 @@
-.item{
+.item {
     padding-bottom: 10px;
+    display: flex;
+    height: 50px;
 }
-.item a{
+
+.textLink {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
     text-decoration: none;
     color: white;
+}
+
+.item .active {
+    color: orange;
 
 }
-.item .active{
-    color: orange;
+
+.imgLink {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
 }

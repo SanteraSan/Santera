@@ -8,5 +8,30 @@
 .navigat{
     background-color: #3f96ab;
     grid-area: nav;
-    padding: 20px;
+    padding: 10px;
+}
+.imgLink img{
+    height: 50px;
+    display: inline-block;
+}
+.settings{
+    padding-top: 40px;
+}
+.friends h3{
+    text-align: center;
+}
+.friends{
+    margin-right: 0;
+}
+
+.friends a{
+    text-decoration: none;
+    color: indigo;
+}
+.avatar{
+
+}
+.friendsItems{
+    display: flex;
+    justify-content: space-between;
 }

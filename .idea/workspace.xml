@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/state.js" afterDir="false" />
+    <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="all Data to state.js">
+      <change afterPath="$PROJECT_DIR$/src/Content/img/—Pngtree—princess logo_4363708.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/img/—Pngtree—rabbit with medical mask_5335491.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/navigation/friends/avatar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/navigation/friends/friends.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Settings/Settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/nav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +39,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a8CAwIrnad5eHTCalS9gfvFZqH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSX Harmony" />
@@ -99,7 +111,7 @@
       <workItem from="1586830109109" duration="22188000" />
       <workItem from="1586871586317" duration="4831000" />
       <workItem from="1586894919076" duration="10622000" />
-      <workItem from="1586935599716" duration="583000" />
+      <workItem from="1586935599716" duration="24341000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -150,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586901938904</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="all Data to state.js">
+      <created>1586936374309</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586936374309</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,11 +189,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dialogs.css" />
     <MESSAGE value="before path" />
     <MESSAGE value="dev-working" />
     <MESSAGE value="array.map()" />
     <MESSAGE value="all Data to index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="all Data to index.js" />
+    <MESSAGE value="all Data to state.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="all Data to state.js" />
   </component>
 </project>
