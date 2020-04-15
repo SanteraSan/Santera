@@ -5,7 +5,7 @@ import Message from "./mesage_item/message_item";
 
 const Messages = (props) => {
 
-    let messages = props.messageData.map(m => <Message message={m.message}/>)
+    let messages = props.state.map(m => <Message message={m.message}/>)
 
     return (
         <div className={s.messages}>

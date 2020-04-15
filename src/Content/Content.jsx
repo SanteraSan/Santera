@@ -9,14 +9,15 @@ import Settings from "./Settings/Settings";
 
 
 
-const Content = (props) =>
-    <div className={style.content}>
-        <Route path={"/dialogs"} render={() => <Dialogs messageData={props.messageData} itemsData={props.itemsData}/>}/>
-        <Route path={"/profile"} render={() => <Profile postsData={props.postsData}/>}/>
+const Content = (props) => {
+
+        return(  <div className={style.content}>
+        <Route path={"/dialogs"} render={() => <Dialogs state={props.state.dialogsPage}/>}/>
+        <Route path={"/profile"} render={() => <Profile state={props.state.profilePage}/>}/>
         <Route path={"/news"} render={() => <News/>}/>
         <Route path={"/music"} render={() => <Music/>}/>
         <Route path={"/settings"} render={() => <Settings/>}/>
-    </div>
+    </div>)}
 
 ;
 

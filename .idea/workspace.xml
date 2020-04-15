@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/items/item_dialog.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -46,7 +44,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -100,7 +98,8 @@
       <workItem from="1586786995678" duration="5275000" />
       <workItem from="1586830109109" duration="22188000" />
       <workItem from="1586871586317" duration="4831000" />
-      <workItem from="1586894919076" duration="5275000" />
+      <workItem from="1586894919076" duration="10622000" />
+      <workItem from="1586935599716" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586876444089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="all Data to index.js">
+      <created>1586901938904</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586901938904</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +174,7 @@
     <MESSAGE value="before path" />
     <MESSAGE value="dev-working" />
     <MESSAGE value="array.map()" />
-    <option name="LAST_COMMIT_MESSAGE" value="array.map()" />
+    <MESSAGE value="all Data to index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="all Data to index.js" />
   </component>
 </project>

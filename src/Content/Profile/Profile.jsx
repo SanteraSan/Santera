@@ -10,7 +10,7 @@ const Profile = (props) =>
              alt=""/>
         <div className={style.LogoInfoPosts}>
             <LogoInfo/>
-            <Posts postsData={props.postsData}/>
+            <Posts state={props.state.posts}/>
         </div>
     </div>
 ;

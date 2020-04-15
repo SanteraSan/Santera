@@ -7,7 +7,7 @@ import s from "./dialog_items.module.css"
 
 const Dialogs_items = (props) => {
 
-    let items = props.itemsData.map(i => <Item id={i.id} name={i.name} link={i.link}/>)
+    let items = props.state.map(i => <Item id={i.id} name={i.name} link={i.link}/>)
     return (
         <div className={s.items}>
             {items}

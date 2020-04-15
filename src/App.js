@@ -6,15 +6,15 @@ import Content from "./Content/Content";
 import {BrowserRouter} from "react-router-dom";
 
 
-
-const App = (props) =>{
-    return(<BrowserRouter >
+const App = (props) => {
+    return (<BrowserRouter>
         <div className={'app_wrapper'}>
             <Header/>
             <Navigation/>
-            <Content messageData={props.messageData} itemsData={props.itemsData} postsData={props.postsData}/>
+            <Content state={props.state}/>
         </div>
         ;
-    </BrowserRouter>);}
+    </BrowserRouter>);
+}
 
 export default App
