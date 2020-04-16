@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/navigation/friends/friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/friends/friends.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +104,11 @@
       <workItem from="1586894919076" duration="10622000" />
       <workItem from="1586935599716" duration="24598000" />
       <workItem from="1586965958022" duration="2100000" />
-      <workItem from="1586974524277" duration="4988000" />
+      <workItem from="1586974524277" duration="5627000" />
+      <workItem from="1587013398589" duration="7251000" />
+      <workItem from="1587020821533" duration="3131000" />
+      <workItem from="1587026204707" duration="2715000" />
+      <workItem from="1587037526466" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -165,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586963832754</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="textarea">
+      <created>1586984220342</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586984220342</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +208,7 @@
     <MESSAGE value="all Data to index.js" />
     <MESSAGE value="all Data to state.js" />
     <MESSAGE value="icons for dialogs; FRIENDS" />
-    <option name="LAST_COMMIT_MESSAGE" value="icons for dialogs; FRIENDS" />
+    <MESSAGE value="textarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="textarea" />
   </component>
 </project>

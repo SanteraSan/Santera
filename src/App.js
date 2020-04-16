@@ -7,13 +7,13 @@ import {BrowserRouter} from "react-router-dom";
 
 
 const App = (props) => {
+
     return (<BrowserRouter>
         <div className={'app_wrapper'}>
             <Header/>
             <Navigation state={props.state.dialogsPage}/>
-            <Content state={props.state}/>
+            <Content state={props.state} addPost={props.addPost}/>
         </div>
-        ;
     </BrowserRouter>);
 }
 

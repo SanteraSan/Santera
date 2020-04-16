@@ -1,19 +1,22 @@
 import React from "react";
 import s from "./post.module.css"
 
-const MyPosts = () => {
+
+
+const MyPosts = (props) => {
 
     let newPostElement = React.createRef();
 
-    let addPost = () =>{
+    let addPosts = () =>{
         let text = newPostElement.current.value;
-        alert(text);
-    }
+        props.addPost(text);
+    };
+
     return (
         <div className={s.myPosts}>
             <h3>My Posts</h3> <br/>
             <textarea ref={newPostElement}></textarea> <br/>
-            <button onClick={addPost} type="submit">Опубликовать</button>
+            <button onClick={addPosts} type="submit">Опубликовать</button>
         </div>);
 }
 
