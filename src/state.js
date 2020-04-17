@@ -1,13 +1,29 @@
 import React from "react";
-import {pups} from "./render";
+
+let pups = () => {
+};
 
 let state = {
     profilePage: {
         posts: [
-            {id: 1, greet: "hello", likeCounts: 15},
-            {id: 2, greet: "hi", likeCounts: 20}
-        ]
+            {
+                id: 1,
+                greet: "hello",
+                likeCounts: 15,
+                changer(value){
+                    this.likeCounts = value;
+                    pups();
+                }
+            },
+            {
+                id: 2,
+                greet: "hi",
+                likeCounts: 20,
+            }
+        ],
+        textAreaValue: "some text"
     },
+
     dialogsPage: {
         messages: [
             {id: 1, message: "Hi"},
@@ -66,15 +82,29 @@ let state = {
     }
 };
 
-export let addPost = (userMessage) => {
+
+
+export const addPost = () => {
     let newPost = {
         id: 3,
-        greet: userMessage,
-        likeCount: 0
+        greet: state.profilePage.textAreaValue,
+        likeCount: 0,
     };
+    state.profilePage.textAreaValue = "";
     state.profilePage.posts.push(newPost);
     pups(state)
 };
+
+export const subscriber = (observer) => {
+    pups = observer;
+};
+
+export const updaterTextAreaValue = (newText) => {
+    state.profilePage.textAreaValue = newText;
+    pups(state)
+};
+
+
 
 
 export default state

@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import state, {addPost, subscriber} from "./state";
+import {updaterTextAreaValue} from "./state";
 import * as serviceWorker from './serviceWorker';
-import state, {addPost} from "./state";
-import {pups} from "./render";
 
 
-pups(state);
+let pupsFromIndexJS = (state) =>{ReactDOM.render(
+    <React.StrictMode>
+        <App state={state} addPost={addPost} updater = {updaterTextAreaValue}/>
+    </React.StrictMode>,
+    document.getElementById('root')
+);}
+
+pupsFromIndexJS(state);
+subscriber(pupsFromIndexJS);
 
 
 // If you want your app to work offline and load faster, you can change

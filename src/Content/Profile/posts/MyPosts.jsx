@@ -5,17 +5,21 @@ import s from "./post.module.css"
 
 const MyPosts = (props) => {
 
-    let newPostElement = React.createRef();
 
+
+    let newPostElement = React.createRef();
     let addPosts = () =>{
-        let text = newPostElement.current.value;
-        props.addPost(text);
+        props.textAreaValue=="" ? alert("Не буду публиковать пустой пост") : props.addPost();
     };
+    let textAreaChanger = () =>{
+        return (props.updater(newPostElement.current.value));}
+    ;
+
 
     return (
         <div className={s.myPosts}>
             <h3>My Posts</h3> <br/>
-            <textarea ref={newPostElement}></textarea> <br/>
+            <textarea onChange={textAreaChanger} ref={newPostElement} value={props.textAreaValue}/> <br/>
             <button onClick={addPosts} type="submit">Опубликовать</button>
         </div>);
 }

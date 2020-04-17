@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,7 +109,9 @@
       <workItem from="1587013398589" duration="7251000" />
       <workItem from="1587020821533" duration="3131000" />
       <workItem from="1587026204707" duration="2715000" />
-      <workItem from="1587037526466" duration="651000" />
+      <workItem from="1587037526466" duration="3118000" />
+      <workItem from="1587067224419" duration="598000" />
+      <workItem from="1587099152906" duration="15100000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -180,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586984220342</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Posts at wall">
+      <created>1587041074997</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587041074997</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +219,7 @@
     <MESSAGE value="all Data to state.js" />
     <MESSAGE value="icons for dialogs; FRIENDS" />
     <MESSAGE value="textarea" />
-    <option name="LAST_COMMIT_MESSAGE" value="textarea" />
+    <MESSAGE value="add Posts at wall" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Posts at wall" />
   </component>
 </project>
