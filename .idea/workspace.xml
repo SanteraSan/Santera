@@ -7,10 +7,8 @@
       <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,7 +109,10 @@
       <workItem from="1587026204707" duration="2715000" />
       <workItem from="1587037526466" duration="3118000" />
       <workItem from="1587067224419" duration="598000" />
-      <workItem from="1587099152906" duration="15100000" />
+      <workItem from="1587099152906" duration="15880000" />
+      <workItem from="1587232094263" duration="603000" />
+      <workItem from="1587240435596" duration="6411000" />
+      <workItem from="1587276421908" duration="17135000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587041074997</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="delete render.jsx">
+      <created>1587116060713</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587116060713</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="icons for dialogs; FRIENDS" />
     <MESSAGE value="textarea" />
     <MESSAGE value="add Posts at wall" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Posts at wall" />
+    <MESSAGE value="delete render.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete render.jsx" />
   </component>
 </project>

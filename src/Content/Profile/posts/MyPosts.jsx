@@ -1,18 +1,19 @@
 import React from "react";
 import s from "./post.module.css"
-
-
+import {addPostActionCreator, updateNewPostActionCreator} from "../../../state";
 
 const MyPosts = (props) => {
-
-
+    // debugger;
 
     let newPostElement = React.createRef();
     let addPosts = () =>{
-        props.textAreaValue=="" ? alert("Не буду публиковать пустой пост") : props.addPost();
+        props.textAreaValue==="" ? alert("Не буду публиковать пустой пост") : props.dispatch(addPostActionCreator());
+
     };
     let textAreaChanger = () =>{
-        return (props.updater(newPostElement.current.value));}
+        let text = newPostElement.current.value;
+
+        return (props.dispatch(updateNewPostActionCreator(text)));}
     ;
 
 

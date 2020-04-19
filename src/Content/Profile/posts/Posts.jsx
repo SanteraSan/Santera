@@ -7,7 +7,7 @@ const Posts = (props) => {
 
     let postsElements = props.state.map(p => <Post message={p.greet} likeCounts={p.likeCounts}/>);
     return (<div className="Posts">
-        <MyPosts updater = {props.updater} textAreaValue = {props.textAreaValue} addPost={props.addPost}/>
+        <MyPosts textAreaValue = {props.textAreaValue} dispatch={props.dispatch}/>
         {postsElements}
     </div>)
 };

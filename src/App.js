@@ -4,6 +4,7 @@ import Header from "./Content/Header/Header";
 import Navigation from "./Content/navigation/Navigate"
 import Content from "./Content/Content";
 import {BrowserRouter} from "react-router-dom";
+import store from "./state";
 
 
 const App = (props) => {
@@ -12,7 +13,7 @@ const App = (props) => {
         <div className={'app_wrapper'}>
             <Header/>
             <Navigation state={props.state.dialogsPage}/>
-            <Content state={props.state} updater = {props.updater} addPost={props.addPost}/>
+            <Content state={props.state} dispatch={props.dispatch}/>
         </div>
     </BrowserRouter>);
 }
