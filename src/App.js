@@ -4,7 +4,7 @@ import Header from "./Content/Header/Header";
 import Navigation from "./Content/navigation/Navigate"
 import Content from "./Content/Content";
 import {BrowserRouter} from "react-router-dom";
-import store from "./Redux/store";
+
 
 
 const App = (props) => {
