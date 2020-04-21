@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
+    <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="ready for Redux">
+      <change afterPath="$PROJECT_DIR$/src/Redux/dialog_reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +56,15 @@
     <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01\ReactJS-learn\src\Redux" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\navigation" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\Header" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\Profile" />
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\jsx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -112,7 +118,9 @@
       <workItem from="1587099152906" duration="15880000" />
       <workItem from="1587232094263" duration="603000" />
       <workItem from="1587240435596" duration="6411000" />
-      <workItem from="1587276421908" duration="17135000" />
+      <workItem from="1587276421908" duration="17237000" />
+      <workItem from="1587461659868" duration="10553000" />
+      <workItem from="1587475786588" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -198,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587116060713</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dispatch &amp; action">
+      <created>1587309429031</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587309429031</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +244,8 @@
     <MESSAGE value="textarea" />
     <MESSAGE value="add Posts at wall" />
     <MESSAGE value="delete render.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete render.jsx" />
+    <MESSAGE value="dispatch &amp; action" />
+    <MESSAGE value="ready for Redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready for Redux" />
   </component>
 </project>

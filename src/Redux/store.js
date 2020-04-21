@@ -1,8 +1,6 @@
 import React from "react";
-
-const UPDATER_NEW_POST = "UPDATE-NEW-POST-TEXT"
-const ADD_POST = "ADD-POST";
-
+import profileReducer from "./profile_reducer";
+import dialogReducer from "./dialog_reducer";
 
 let store = {
     _state: {
@@ -23,7 +21,9 @@ let store = {
             textAreaValue: "some text"
         },
         dialogsPage: {
+
             messages: [
+
                 {id: 1, message: "Hi"},
                 {
                     id: 2,
@@ -32,13 +32,13 @@ let store = {
                 },
                 {id: 3, message: "Yo!!!!"},
             ],
+            textAreaValue: "some text",
             dialogs: [
                 {
                     id: 1,
                     name: "Kirill",
                     link: 1,
                     img: <img src="http://pngimg.com/uploads/american_football/american_football_PNG137.png" alt=""/>,
-
                 },
                 {
                     id: 2,
@@ -85,39 +85,13 @@ let store = {
     subscriber(observer) {
         this._callSubscriber = observer;
     },
-    // addPost() {
-    //     let newPost = {
-    //         id: 3,
-    //         greet: this._state.profilePage.textAreaValue,
-    //         likeCount: 0,
-    //     };
-    //     this._state.profilePage.textAreaValue = "";
-    //     this._state.profilePage.posts.push(newPost);
-    //     this._callSubscriber(this._state)
-    // },
-    //
-    // updaterTextAreaValue(newText) {
-    //     this._state.profilePage.textAreaValue = newText;
-    //     this._callSubscriber(this._state)
-    // },
     dispatch(action) {
-        if (action.type === ADD_POST) {
-            let newPost = {
-                id: 3,
-                greet: this._state.profilePage.textAreaValue,
-                likeCount: 0,
-            };
-            this._state.profilePage.textAreaValue = "";
-            this._state.profilePage.posts.push(newPost);
-            this._callSubscriber(this._state)
-        } else if (action.type === UPDATER_NEW_POST) {
-            this._state.profilePage.textAreaValue = action.newText;
-            this._callSubscriber(this._state)}
-        }
-    };
+        this._state.profilePage = profileReducer(this._state.profilePage, action);
+        this._state.dialogsPage = dialogReducer(this._state.dialogsPage, action);
+        this._callSubscriber(this._state)
+    }
+};
 
-export const addPostActionCreator = () =>({type: ADD_POST});
-export const updateNewPostActionCreator = (text) =>({type: UPDATER_NEW_POST,newText: text});
 
 window.store = store;
 

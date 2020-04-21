@@ -12,7 +12,7 @@ import Settings from "./Settings/Settings";
 const Content = (props) => {
 
         return(  <div className={style.content}>
-        <Route path={"/dialogs"} render={() => <Dialogs state={props.state.dialogsPage}/>}/>
+        <Route path={"/dialogs"} render={() => <Dialogs state={props.state.dialogsPage} dispatch={props.dispatch}/>}/>
         <Route path={"/profile"} render={() => <Profile state={props.state.profilePage} dispatch={props.dispatch}/>}/>
         <Route path={"/news"} render={() => <News/>}/>
         <Route path={"/music"} render={() => <Music/>}/>

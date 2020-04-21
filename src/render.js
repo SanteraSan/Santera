@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {addPost} from "./state";
-import {updaterTextAreaValue} from "./state";
+import {addPost} from "./Redux/store";
+import {updaterTextAreaValue} from "./Redux/store";
 
 export let pups = (state) =>{ReactDOM.render(
     <React.StrictMode>
