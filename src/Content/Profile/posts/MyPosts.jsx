@@ -1,27 +1,29 @@
 import React from "react";
 import s from "./post.module.css"
-import {addPostActionCreator, updateNewPostActionCreator} from "../../../Redux/profile_reducer";
+import Post from "./Post";
+
 
 const MyPosts = (props) => {
     // debugger;
 
+    let postsElements = props.posts.map(p => <Post message={p.greet} likeCounts={p.likeCounts}/>)
+
     let newPostElement = React.createRef();
 
-    let addPosts = () =>{
-        props.textAreaValue==="" ? alert("Не буду публиковать пустой пост") : props.dispatch(addPostActionCreator());
-
+    let onAddPosts =() => {
+        props.textAreaValue === '' ? alert("Empty post") : props.addPost();
     };
+
     let textAreaChanger = () =>{
         let text = newPostElement.current.value;
-        return (props.dispatch(updateNewPostActionCreator(text)));}
+        props.updateNewPostActionCreator(text);}
     ;
-
-
     return (
         <div className={s.myPosts}>
             <h3>My Posts</h3> <br/>
             <textarea onChange={textAreaChanger} ref={newPostElement} value={props.textAreaValue}/><br/>
-            <button onClick={addPosts} type="submit">Опубликовать</button>
+            <button onClick={onAddPosts} type="submit">Опубликовать</button>
+            {postsElements}
         </div>);
 }
 

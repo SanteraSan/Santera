@@ -69,15 +69,19 @@ const dialogReducer = (state = initialState, action) => {
                 id: 4,
                 message: state.textAreaValue
             };
-            state.textAreaValue = "";
-            state.messages.push(newMessage);
-            break;
-        case UPDATER_NEW_MESSAGE:
-            state.textAreaValue = action.newMessage;
-            break;
+            let stateCopy = {...state}
+            stateCopy.textAreaValue = "";
+            stateCopy.messages = [...state.messages]
+            stateCopy.messages.push(newMessage);
+            return stateCopy;
+        case UPDATER_NEW_MESSAGE:{
+            let stateCopy = {...state}
+            stateCopy.textAreaValue = action.newMessage;
+            return stateCopy;}
+    default:return state;
     }
-    return state;
 };
+
 export const addMessageActionCreator = () => ({type: ADD_MESSAGE});
 export const updateNewMessageActionCreator = (text) =>({type: UPDATER_NEW_MESSAGE, newMessage: text});
 

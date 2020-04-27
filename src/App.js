@@ -12,8 +12,8 @@ const App = (props) => {
     return (<BrowserRouter>
         <div className={'app_wrapper'}>
             <Header/>
-            <Navigation state={props.state.dialogsPage}/>
-            <Content state={props.state} dispatch={props.dispatch}/>
+            <Navigation/>
+            <Content/>
         </div>
     </BrowserRouter>);
 }

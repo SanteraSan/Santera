@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
+    <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="use connect from react-redux">
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/DialogsItemsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/DialogsMessagesContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/navigation/friends/AvaFriendContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/friends/friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/friends/friends.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/dialog_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialog_reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,15 +63,15 @@
     <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\Dialog_Items" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\messages\mesage_item" />
       <recent name="E:\Sites\ReactJS\Projects\01\ReactJS-learn\src\Redux" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\navigation" />
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\Header" />
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\Profile" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -114,6 +128,11 @@
       <workItem from="1587276421908" duration="17237000" />
       <workItem from="1587461659868" duration="10553000" />
       <workItem from="1587475786588" duration="4518000" />
+      <workItem from="1587632228840" duration="6730000" />
+      <workItem from="1587639988610" duration="5155000" />
+      <workItem from="1587707406029" duration="8030000" />
+      <workItem from="1587803244339" duration="1989000" />
+      <workItem from="1587969475506" duration="6248000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -246,6 +265,7 @@
     <MESSAGE value="delete render.jsx" />
     <MESSAGE value="dispatch &amp; action" />
     <MESSAGE value="ready for Redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready for Redux" />
+    <MESSAGE value="use connect from react-redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="use connect from react-redux" />
   </component>
 </project>

@@ -2,8 +2,9 @@ import React from "react";
 import n from "./nav.module.css"
 import {NavLink} from "react-router-dom";
 import AvaFriend from "./friends/friends";
+import AvaFriendContainer from "./friends/AvaFriendContainer";
 
-const Navigation = (props) =>
+const Navigation = () =>
     <div className={n.navigat}>
         <div className={`${n.item} ${n.prof}`}><NavLink activeClassName={n.active} to="/profile">Profile</NavLink></div>
         <div className={`${n.message} ${n.item}`}><NavLink activeClassName={n.active} to="/dialogs">Message</NavLink>
@@ -15,9 +16,7 @@ const Navigation = (props) =>
         <div className={`${n.friends}`}>
             <NavLink to={"/friends"}><h3>Friends</h3></NavLink>
             <div className={n.friendsItems}>
-                <AvaFriend state={props.state.dialogs[0]} />
-                <AvaFriend state={props.state.dialogs[1]} />
-                <AvaFriend state={props.state.dialogs[2]} />
+                <AvaFriendContainer/>
             </div>
         </div>
     </div>;

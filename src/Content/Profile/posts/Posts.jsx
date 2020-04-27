@@ -1,14 +1,11 @@
 import React from "react";
-import Post from "./Post";
-import MyPosts from "./MyPosts";
+
+import MyPostsContainer from "./MyPostsContainer";
 
 
-const Posts = (props) => {
-
-    let postsElements = props.state.map(p => <Post message={p.greet} likeCounts={p.likeCounts}/>);
+const Posts = () => {
     return (<div className="Posts">
-        <MyPosts textAreaValue = {props.textAreaValue} dispatch={props.dispatch}/>
-        {postsElements}
+        <MyPostsContainer/>
     </div>)
 };
 
