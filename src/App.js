@@ -6,8 +6,7 @@ import Content from "./Content/Content";
 import {BrowserRouter} from "react-router-dom";
 
 
-
-const App = (props) => {
+const App = () => {
 
     return (<BrowserRouter>
         <div className={'app_wrapper'}>
@@ -16,6 +15,6 @@ const App = (props) => {
             <Content/>
         </div>
     </BrowserRouter>);
-}
+};
 
 export default App

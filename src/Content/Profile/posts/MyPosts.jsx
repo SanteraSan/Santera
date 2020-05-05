@@ -6,7 +6,7 @@ import Post from "./Post";
 const MyPosts = (props) => {
     // debugger;
 
-    let postsElements = props.posts.map(p => <Post message={p.greet} likeCounts={p.likeCounts}/>)
+    let postsElements = props.posts.map(p => <Post message={p.greet} likeCounts={p.likeCounts}/>);
 
     let newPostElement = React.createRef();
 
@@ -25,7 +25,7 @@ const MyPosts = (props) => {
             <button onClick={onAddPosts} type="submit">Опубликовать</button>
             {postsElements}
         </div>);
-}
+};
 
 
 export default MyPosts

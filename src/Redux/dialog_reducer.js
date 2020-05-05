@@ -1,10 +1,9 @@
 import React from "react";
 
 const ADD_MESSAGE = "ADD-MESSAGE";
-const UPDATER_NEW_MESSAGE = "UPDATE-NEW-MESSAGE-TEXT"
+const UPDATER_NEW_MESSAGE = "UPDATE-NEW-MESSAGE-TEXT";
 
 let initialState = {
-
     messages: [
 
         {id: 1, message: "Hi"},
@@ -60,7 +59,7 @@ let initialState = {
             img: <img src="http://pngimg.com/uploads/american_football/american_football_PNG137.png" alt=""/>
         },
     ]
-}
+};
 
 const dialogReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -69,13 +68,13 @@ const dialogReducer = (state = initialState, action) => {
                 id: 4,
                 message: state.textAreaValue
             };
-            let stateCopy = {...state}
+            let stateCopy = {...state};
             stateCopy.textAreaValue = "";
-            stateCopy.messages = [...state.messages]
+            stateCopy.messages = [...state.messages];
             stateCopy.messages.push(newMessage);
             return stateCopy;
         case UPDATER_NEW_MESSAGE:{
-            let stateCopy = {...state}
+            let stateCopy = {...state};
             stateCopy.textAreaValue = action.newMessage;
             return stateCopy;}
     default:return state;

@@ -1,0 +1,55 @@
+.container {
+    margin: 3px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo_button {
+    text-align: center;
+}
+.logo_button img {
+    max-height: 100px;
+}
+.user_info{
+    background-color: #c9f9f4;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 70px;
+}
+.user_name_status{
+    width: 75%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+.user_name_status .name{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.user_name_status .status{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.location{
+    padding-right: 5px;
+    text-align: right;
+}
+
+.selectedPage{
+    font-weight: bold;
+}
+
+
