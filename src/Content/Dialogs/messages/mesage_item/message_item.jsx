@@ -8,5 +8,5 @@ const Message = (props) =>{
         <div className={`${s.message} ${s.guest}`}>{props.message}</div>
     </div> );
 
-}
+};
 export default Message

@@ -20,7 +20,7 @@ const Messages = (props) => {
         return (props.updateNewMessageActionCreator(text));
     };
 
-    let messages = props.messages.map(m => <Message message={m.message}/>)
+    let messages = props.messages.map(m => <Message message={m.message}/>);
 
     return (
         <div>

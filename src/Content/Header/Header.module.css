@@ -1,8 +1,18 @@
 .header{
     background-color: #3f96ab;
     grid-area: header;
-    height: 50px;
+    height: 100px;
 }
-img{
-    height: 100%;
+.header img{
+    height: 75%;
+}
+.login_block{
+    float: right;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.login_block a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }

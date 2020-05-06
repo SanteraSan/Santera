@@ -1,4 +1,3 @@
-import React from "react";
 import {connect} from "react-redux";
 import Dialogs_items from "./dialog_items";
 
@@ -8,6 +7,6 @@ let mapStateToProps = (state) => {
     }
 };
 
-const DialogsItemsContainer = connect(mapStateToProps)(Dialogs_items)
+const DialogsItemsContainer = connect(mapStateToProps)(Dialogs_items);
 
 export default DialogsItemsContainer

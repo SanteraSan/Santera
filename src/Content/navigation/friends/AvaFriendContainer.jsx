@@ -1,8 +1,5 @@
-import React from "react";
 import {connect} from "react-redux";
 import AvaFriend from "./friends";
-
-
 
 
 let mapStateToProps = (state) => {

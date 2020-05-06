@@ -2,29 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Santera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Common/Preloader/Preloader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/posts/ProfileContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Users/Users.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Users/Users.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/img/Spinner-1s-200px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/img/png-transparent-computer-icons-user-icon-design-help-portal-computer-orange-sphere.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/users_reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Header/HeaderComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/auth_reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Common/Preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/Preloader/Preloader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/Posts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/DialogsItemsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/DialogsItemsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/DialogsMessagesContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/DialogsMessagesContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/dialog_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialog_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/friends/AvaFriendContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/friends/AvaFriendContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/navigation/friends/avatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/friends/avatar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +56,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSX Harmony" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Content/Profile/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Content/Header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -69,18 +68,19 @@
     <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile\posts" />
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Users" />
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Redux" />
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\Dialog_Items" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\messages\mesage_item" />
       <recent name="E:\Sites\ReactJS\Projects\01\ReactJS-learn\src\Redux" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content\navigation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Header" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile\posts" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Users" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Redux" />
+      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -148,7 +148,9 @@
       <workItem from="1588166578756" duration="7073000" />
       <workItem from="1588224225816" duration="600000" />
       <workItem from="1588583098987" duration="9458000" />
-      <workItem from="1588691482723" duration="6420000" />
+      <workItem from="1588691482723" duration="9029000" />
+      <workItem from="1588708292130" duration="1422000" />
+      <workItem from="1588741005131" duration="11582000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587977832434</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ProfileContainer">
+      <created>1588699242307</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588699242308</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +298,7 @@
     <MESSAGE value="dispatch &amp; action" />
     <MESSAGE value="ready for Redux" />
     <MESSAGE value="use connect from react-redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="use connect from react-redux" />
+    <MESSAGE value="ProfileContainer" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProfileContainer" />
   </component>
 </project>

@@ -1,7 +1,6 @@
 import React from "react";
 import n from "./nav.module.css"
 import {NavLink} from "react-router-dom";
-import AvaFriend from "./friends/friends";
 import AvaFriendContainer from "./friends/AvaFriendContainer";
 
 const Navigation = () =>
