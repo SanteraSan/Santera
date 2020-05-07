@@ -2,35 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Content/Header/HeaderComponent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/auth_reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Login/login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Common/Preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/Preloader/Preloader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/DialogsItemsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/DialogsItemsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialog_Items/dialog_items.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/DialogsMessagesContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/DialogsMessagesContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/mesage_item/message_item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Header/HeaderComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/HeaderComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/Navigate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/navigation/friends/AvaFriendContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/friends/AvaFriendContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/navigation/friends/avatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/navigation/friends/avatar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/auth_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/users_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ReactJS-learn" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,23 +62,24 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="E:\Install-2\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile" />
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\Dialog_Items" />
-      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\messages\mesage_item" />
-      <recent name="E:\Sites\ReactJS\Projects\01\ReactJS-learn\src\Redux" />
-      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Header" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile\posts" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Users" />
       <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Redux" />
       <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Profile" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\Dialog_Items" />
+      <recent name="E:\Sites\ReactJS\Projects\01_1\ReactJS-learn\src\Content\Dialogs\messages\mesage_item" />
+      <recent name="E:\Sites\ReactJS\Projects\01\ReactJS-learn\src\Redux" />
+      <recent name="E:\Sites\ReactJS\Projects\01\react-learn\src\Content" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,6 +93,23 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -150,7 +166,10 @@
       <workItem from="1588583098987" duration="9458000" />
       <workItem from="1588691482723" duration="9029000" />
       <workItem from="1588708292130" duration="1422000" />
-      <workItem from="1588741005131" duration="11582000" />
+      <workItem from="1588741005131" duration="14894000" />
+      <workItem from="1588832164931" duration="12427000" />
+      <workItem from="1588850072197" duration="13946000" />
+      <workItem from="1588868204197" duration="887000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -264,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588699242308</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="api.js">
+      <created>1588757178728</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588757178728</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +325,7 @@
     <MESSAGE value="ready for Redux" />
     <MESSAGE value="use connect from react-redux" />
     <MESSAGE value="ProfileContainer" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProfileContainer" />
+    <MESSAGE value="api.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="api.js" />
   </component>
 </project>

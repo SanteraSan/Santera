@@ -16,7 +16,7 @@ const MyPosts = (props) => {
 
     let textAreaChanger = () =>{
         let text = newPostElement.current.value;
-        props.updateNewPostActionCreator(text);}
+        props.updateNewPost(text);}
     ;
     return (
         <div className={s.myPosts}>
