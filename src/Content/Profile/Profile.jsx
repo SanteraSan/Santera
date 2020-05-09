@@ -9,7 +9,7 @@ const Profile = (props) =>
              src="https://addons.cdn.mozilla.net/user-media/version-previews/full/2382/2382637.png?modified=1557783348"
              alt=""/>
         <div className={style.LogoInfoPosts}>
-            <LogoInfo profile={props.profile} />
+            <LogoInfo profile={props.profile} status={props.status}/>
             <MyPostsContainer/>
         </div>
     </div>

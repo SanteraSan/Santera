@@ -3,7 +3,7 @@ import * as axios from "axios";
 const instance = axios.create({
     withCredentials: true,
     baseURL: "https://social-network.samuraijs.com/api/1.0/",
-    headers: {"API-KEY": "905ba1ce-e17f-4a75-b84a-27ffb040192d"}
+    headers: {"API-KEY": "85c04d1a-48ca-445a-a2aa-989c2ecde80d"}
 });
 
 export const usersAPI = {
@@ -12,13 +12,35 @@ export const usersAPI = {
             .then(response => response.data)
     },
     unfollow(userId) {
-        return instance.delete(`follow/${userId}`)},
-    follow(userId) {
-        return instance.post(`follow/${userId}`)},
-    authMe(){
-        return instance.get(`auth/me`)
+        return instance.delete(`follow/${userId}`)
     },
-    getProfile(userId){
+    follow(userId) {
+        return instance.post(`follow/${userId}`)
+    },
+    authMe() {
+        console.warn('Obsolete method. Please use profileAPI object');
+        return authAPI.authMe()
+    },
+    getProfile(userId) {
+        console.warn('Obsolete method. Please use profileAPI object');
+        return profileAPI.getProfile(userId)
+    }
+};
+
+export const authAPI = {
+    authMe() {
+        return instance.get(`auth/me`)
+    }
+};
+
+export const profileAPI = {
+    getProfile(userId) {
         return instance.get(`profile/` + userId)
+    },
+    getStatus(userId) {
+        return instance.get(`profile/status/` + userId)
+    },
+    updateStatus(status) {
+        return instance.put(`profile/status`, {status:status})
     }
 };

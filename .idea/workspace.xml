@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Content/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Login/login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Header/HeaderComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Header/HeaderComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/LogoInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/auth_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth_reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/users_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users_reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -169,7 +162,9 @@
       <workItem from="1588741005131" duration="14894000" />
       <workItem from="1588832164931" duration="12427000" />
       <workItem from="1588850072197" duration="13946000" />
-      <workItem from="1588868204197" duration="887000" />
+      <workItem from="1588868204197" duration="1489000" />
+      <workItem from="1588914210659" duration="8310000" />
+      <workItem from="1589007304515" duration="26245000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -290,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588757178728</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="thunk!!!!!!!!!!! and Redirect">
+      <created>1588869163757</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1588869163757</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +328,7 @@
     <MESSAGE value="use connect from react-redux" />
     <MESSAGE value="ProfileContainer" />
     <MESSAGE value="api.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="api.js" />
+    <MESSAGE value="thunk!!!!!!!!!!! and Redirect" />
+    <option name="LAST_COMMIT_MESSAGE" value="thunk!!!!!!!!!!! and Redirect" />
   </component>
 </project>
