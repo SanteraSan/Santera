@@ -23,16 +23,15 @@ export const setAuthUserData = (userId, login, email, isAuth) => ({
     type: SET_USER_DATA, payload:
         {userId, login, email, isAuth}
 });
-export const letsAuth = () => {
-    return (dispatch) => {
-        usersAPI.authMe().then(response => {
-            if (response.data.resultCode === 0) {
-                let {id, login, email} = response.data.data;
-                dispatch(setAuthUserData(id, login, email, true));
-            }
-        })
-    }
+export const letsAuth = () => (dispatch) => {
+    return usersAPI.authMe().then(response => {
+        if (response.data.resultCode === 0) {
+            let {id, login, email} = response.data.data;
+            dispatch(setAuthUserData(id, login, email, true));
+        }
+    })
 };
+
 export const login = (email, password, rememberMe) =>
     (dispatch) => {
         authAPI.login(email, password, rememberMe).then(response => {
