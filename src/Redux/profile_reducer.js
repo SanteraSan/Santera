@@ -31,7 +31,7 @@ const profileReducer = (state = initialState, action) => {
         case ADD_POST: {
             let newPost = {
                 id: 3,
-                greet: state.textAreaValue,
+                greet: action.profileAddPost,
                 likeCount: 0,
             };
             let stateCopy = {...state};
@@ -56,7 +56,7 @@ const profileReducer = (state = initialState, action) => {
     }
 };
 
-export const addPost = () => ({type: ADD_POST});
+export const addPost = (profileAddPost) => ({type: ADD_POST, profileAddPost});
 export const updateNewPost = (text) => ({type: UPDATER_NEW_POST, newText: text});
 export const setUserProfile = (profile) => ({type: SET_USERS_PROFILE, profile});
 export const setStatus = (status) => ({type: SET_STATUS, status});
