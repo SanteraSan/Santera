@@ -22,7 +22,7 @@ let initialState = {
     ],
     textAreaValue: "some text",
     profile: null,
-    status: "123"
+    status: "1"
 
 };
 

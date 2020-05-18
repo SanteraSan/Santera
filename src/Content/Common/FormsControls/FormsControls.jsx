@@ -1,12 +1,6 @@
 import React from "react";
 import s from "./formControl.module.css"
 
-
-
-
-
-
-
 export const TextArea = ({input,meta, ...props}) => {
     let hasError = meta.touched && meta.error;
     return (
@@ -17,8 +11,6 @@ export const TextArea = ({input,meta, ...props}) => {
 
     )
 };
-
-
 
 export const Input = ({input,meta, ...props}) => {
     let hasError = meta.touched && meta.error;

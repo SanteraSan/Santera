@@ -32,20 +32,20 @@ import {TextArea} from "../../Common/FormsControls/FormsControls";
 
 const maxLength15 = maxLength(15);
 
-let NewPostProfileForm = (props) => {
+let NewPostProfileForm = React.memo((props) => {
+
+    const {handleSubmit} = props;
     return (
-        <form onSubmit={props.handleSubmit}>
+        <form onSubmit={handleSubmit}>
             <div>
-                <Field component={TextArea}
-                       name="profileAddPost"
-                       placeholder="Enter you message"
+                <Field component={TextArea} name="profileAddPost" placeholder="Enter you message"
                        validate={[required, maxLength15]}
                 />
             </div>
             <button>Отправить</button>
         </form>)
 
-};
+});
 
 
 NewPostProfileForm = reduxForm({form: 'profileForm'})(NewPostProfileForm);

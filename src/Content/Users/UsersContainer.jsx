@@ -9,7 +9,7 @@ import {
     getFollowingInProgress,
     getIsFetching,
     getPageSize,
-    getTotalUserCount,
+    getTotalUserCount
 } from "../../Redux/user_selectors";
 
 
@@ -24,6 +24,7 @@ class UsersApiComponent extends React.Component {
     };
 
     render() {
+        console.log("render users");
         return <>
             {this.props.isFetching ? <Preloader/> : null}
             <Users totalUsersCount={this.props.totalUsersCount}
@@ -49,6 +50,7 @@ class UsersApiComponent extends React.Component {
 //         followingInProgress: state.usersPage.followingInProgress
 //     };
     let mapStateToProps = (state) => {
+    console.log("mSTP users");
     return {
         users: getAllUsers(state),
         pageSize: getPageSize(state),
