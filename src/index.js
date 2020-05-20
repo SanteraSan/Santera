@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import {Provider} from "react-redux";
 
 
-// let rerenderEntireTree = (state) => {
+
     ReactDOM.render(
         <React.StrictMode>
             <Provider store={store}>
@@ -19,10 +19,6 @@ import {Provider} from "react-redux";
 
 
 
-// rerenderEntireTree();
-// store.subscribe(() => {
-//     rerenderEntireTree();
-// });
 
 
 // If you want your app to work offline and load faster, you can change

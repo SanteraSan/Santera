@@ -3,7 +3,7 @@ import {letsAuth} from "./auth_reducer";
 const INITIALIZING_SUCCESS = "INITIALIZING_SUCCESS";
 
 let initialState = {
-    initialize: false
+    initialize: true
 };
 const appReducer = (state = initialState, action) => {
     if (action.type === INITIALIZING_SUCCESS) {
