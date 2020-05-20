@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ReactJS-learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainerWithHook.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Utils/Helpers/array_helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/auth_selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/profile_selector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Santera.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-learn.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusWithHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusWithHook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/auth_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/users_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users_reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
