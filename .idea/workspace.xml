@@ -2,18 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbd25f-90b4-4328-9c03-c4f7d53f5644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusWithHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ReactJS-learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainerWithHook.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/Utils/Helpers/array_helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/auth_selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/profile_selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Santera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-learn.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Common/FormsControls/FormsControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Common/FormsControls/FormsControls.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Dialogs/messages/messages.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusWithHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/LogoInfo/ProfileStatusWithHook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Profile/posts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/user_selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/user_selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/auth_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/users_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users_reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a8CAwIrnad5eHTCalS9gfvFZqH" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -48,7 +57,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSX Harmony" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Content/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Projects/TestProjects/ruby" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -88,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -99,8 +108,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -180,7 +200,10 @@
       <workItem from="1589624648666" duration="601000" />
       <workItem from="1589696082434" duration="24316000" />
       <workItem from="1589748698025" duration="603000" />
-      <workItem from="1589790009243" duration="1556000" />
+      <workItem from="1589790009243" duration="10756000" />
+      <workItem from="1589877227131" duration="12557000" />
+      <workItem from="1589960890367" duration="7065000" />
+      <workItem from="1589980484859" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -329,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589467866051</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ProfileStatus with hook">
+      <created>1589794431935</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589794431935</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +399,7 @@
     <MESSAGE value="PUT status profile" />
     <MESSAGE value="stopSubmit at loginPage" />
     <MESSAGE value="selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="selectors" />
+    <MESSAGE value="ProfileStatus with hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProfileStatus with hook" />
   </component>
 </project>

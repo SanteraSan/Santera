@@ -32,7 +32,6 @@ const ProfileStatusWithHook = React.memo((props) => {
         debugger;
     };
     const changeStatus = (e) => {
-
         setStatus(e.currentTarget.value
         );
     };

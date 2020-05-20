@@ -52,7 +52,7 @@ const Messages = (props) => {
     let addNewMessage = (values) => {
         props.addMessages(values.textareaName);
     };
-    let messages = props.messages.map(m => <Message message={m.message}/>);
+    let messages = props.messages.map(m => <Message key={m.id} message={m.message}/>);
     return <div>
         <div className={s.messages}>{messages}</div>
         <AddMessageForm onSubmit={addNewMessage}/>

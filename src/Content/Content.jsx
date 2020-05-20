@@ -8,13 +8,14 @@ import UsersContainer from "./Users/UsersContainer";
 import ProfileContainer from "./Profile/ProfileContainer";
 import Login from "./Login/login";
 import DialogsContainer from "./Dialogs/DialogsContainer";
+import ProfileContainerWithHook from "./Profile/ProfileContainerWithHook";
 
 
 const Content = () => {
 
         return (<div className={style.content}>
             <Route path={"/dialogs"} render={() => <DialogsContainer/>}/>
-            <Route path={"/profile/:userId?"} render={() => <ProfileContainer/>}/>
+            <Route path={"/profile/:userId?"} render={() => <ProfileContainerWithHook/>}/>
             <Route path={"/users"} render={() => <UsersContainer/>}/>
             <Route path={"/news"} render={() => <News/>}/>
             <Route path={"/music"} render={() => <Music/>}/>

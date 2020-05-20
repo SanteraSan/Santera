@@ -23,35 +23,32 @@ export const setAuthUserData = (userId, login, email, isAuth) => ({
     type: SET_USER_DATA, payload:
         {userId, login, email, isAuth}
 });
-export const letsAuth = () => (dispatch) => {
-    return usersAPI.authMe().then(response => {
-        if (response.data.resultCode === 0) {
-            let {id, login, email} = response.data.data;
-            dispatch(setAuthUserData(id, login, email, true));
-        }
-    })
+export const letsAuth = () => async (dispatch) => {
+    let response = await usersAPI.authMe();
+    if (response.data.resultCode === 0) {
+        let {id, login, email} = response.data.data;
+        dispatch(setAuthUserData(id, login, email, true));
+    }
 };
 
 export const login = (email, password, rememberMe) =>
-    (dispatch) => {
-        authAPI.login(email, password, rememberMe).then(response => {
-            if (response.data.resultCode === 0) {
-                dispatch(letsAuth())
-            } else {
-                let messageError = response.data.messages.length > 0 ? response.data.messages[0] : "Some error";
-                dispatch(stopSubmit("loginPage", {_error: messageError}))
-            }
-        })
+    async (dispatch) => {
+        let response = await authAPI.login(email, password, rememberMe);
+        if (response.data.resultCode === 0) {
+            dispatch(letsAuth())
+        } else {
+            let messageError = response.data.messages.length > 0 ? response.data.messages[0] : "Some error";
+            dispatch(stopSubmit("loginPage", {_error: messageError}))
+        }
     };
 
-export const logout = () => {
-    return (dispatch) => {
-        authAPI.logout().then(response => {
-            if (response.data.resultCode === 0) {
-                dispatch(setAuthUserData(null, null, null, false));
-            }
-        })
-    }
-};
+export const logout = () =>
+    async (dispatch) => {
+        let response = await authAPI.logout();
+        if (response.data.resultCode === 0) {
+            dispatch(setAuthUserData(null, null, null, false));
+        }
+    };
+
 
 export default authReducer

@@ -5,12 +5,12 @@ import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
 import {compose} from "redux";
 import {WithAuthRedirect} from "../../hoc/withAuthRedirect";
+import {getProfile, getProfileStatus} from "../../Redux/profile_selector";
+import {getAuthUserId} from "../../Redux/auth_selectors";
 
 class ProfileContainer extends PureComponent {
 
-
-
-    componentDidMount() {
+    componentDidMount(){
         // debugger;
         let userId = this.props.match.params.userId;
         if (!userId) {
@@ -18,30 +18,21 @@ class ProfileContainer extends PureComponent {
         }
         this.props.getProfileData(userId);
         this.props.getStatus(userId);
-    };
-
-    // shouldComponentUpdate(nextProps, nextState, nextContext) {
-    //     return nextProps !== this.props || nextState !== this.state;
-    // }
-
-
-
-
-    render() {
-        // debugger;
-        console.log("Render profile");
-        return (
-            <Profile {...this.props}/>
-        )
     }
+    render()
+    {
+        console.log("render prof");
+    return (
+        <Profile {...this.props}/>
+    )}
 }
 
 let mapStateToProps = (state) => {
     console.log("mSTP");
     return({
-    profile: state.profilePage.profile,
-    status: state.profilePage.status,
-    authorizeUserId:state.auth.userId
+    profile: getProfile(state),
+    status: getProfileStatus(state),
+    authorizeUserId:getAuthUserId(state)
 })};
 
 export default compose(
