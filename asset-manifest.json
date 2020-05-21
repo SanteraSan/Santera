@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SanteraSan/Santera/static/css/main.3701770d.chunk.css",
+    "main.js": "/SanteraSan/Santera/static/js/main.fa17a4a6.chunk.js",
+    "main.js.map": "/SanteraSan/Santera/static/js/main.fa17a4a6.chunk.js.map",
+    "runtime-main.js": "/SanteraSan/Santera/static/js/runtime-main.478c6040.js",
+    "runtime-main.js.map": "/SanteraSan/Santera/static/js/runtime-main.478c6040.js.map",
+    "static/js/2.aacba89b.chunk.js": "/SanteraSan/Santera/static/js/2.aacba89b.chunk.js",
+    "static/js/2.aacba89b.chunk.js.map": "/SanteraSan/Santera/static/js/2.aacba89b.chunk.js.map",
+    "index.html": "/SanteraSan/Santera/index.html",
+    "precache-manifest.5d494af5a21ef12e3be1993969820ab9.js": "/SanteraSan/Santera/precache-manifest.5d494af5a21ef12e3be1993969820ab9.js",
+    "service-worker.js": "/SanteraSan/Santera/service-worker.js",
+    "static/css/main.3701770d.chunk.css.map": "/SanteraSan/Santera/static/css/main.3701770d.chunk.css.map",
+    "static/js/2.aacba89b.chunk.js.LICENSE.txt": "/SanteraSan/Santera/static/js/2.aacba89b.chunk.js.LICENSE.txt",
+    "static/media/Spinner-1s-200px.svg": "/SanteraSan/Santera/static/media/Spinner-1s-200px.9064981b.svg",
+    "static/media/png-transparent-computer-icons-user-icon-design-help-portal-computer-orange-sphere.png": "/SanteraSan/Santera/static/media/png-transparent-computer-icons-user-icon-design-help-portal-computer-orange-sphere.7fc247f2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.478c6040.js",
+    "static/js/2.aacba89b.chunk.js",
+    "static/css/main.3701770d.chunk.css",
+    "static/js/main.fa17a4a6.chunk.js"
+  ]
+}
