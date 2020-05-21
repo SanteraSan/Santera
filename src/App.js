@@ -6,17 +6,17 @@ import {BrowserRouter} from "react-router-dom";
 import HeaderContainer from "./Content/Header/HeaderComponent";
 import {connect} from "react-redux";
 import {setInitializeSuccess} from "./Redux/app_reducer";
-// import Preloader from "./Content/Common/Preloader/Preloader";
+import Preloader from "./Content/Common/Preloader/Preloader";
 
 
 class App extends Component {
-    // componentDidMount() {
-    //     this.props.setInitializeSuccess();
-    // }
+    componentDidMount() {
+        this.props.setInitializeSuccess();
+    }
     render() {
-        // if (!this.props.initialize){
-        //     return <Preloader/>
-        // }
+        if (!this.props.initialize){
+            return <Preloader/>
+        }
         return (<BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className={'app_wrapper'}>
                 <HeaderContainer/>
@@ -27,9 +27,8 @@ class App extends Component {
     }
 }
 
-// let mapStateToProps = (state) =>({
-//     initialize:state.app.initialize
-// });
+let mapStateToProps = (state) =>({
+    initialize:state.app.initialize
+});
 
-// export default connect(mapStateToProps,{setInitializeSuccess}) (App)
-export default App
+export default connect(mapStateToProps,{setInitializeSuccess}) (App)

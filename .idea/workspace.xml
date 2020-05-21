@@ -38,7 +38,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSX Harmony" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Projects/TestProjects/ruby" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -185,6 +185,7 @@
       <workItem from="1589877227131" duration="12557000" />
       <workItem from="1589960890367" duration="7065000" />
       <workItem from="1589980484859" duration="1310000" />
+      <workItem from="1590060684764" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="dialogs.css">
       <created>1586707221075</created>
@@ -368,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589985427012</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="--API">
+      <created>1589985903804</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1589985903804</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,6 +419,7 @@
     <MESSAGE value="ProfileStatus with hook" />
     <MESSAGE value="git" />
     <MESSAGE value="preloader" />
-    <option name="LAST_COMMIT_MESSAGE" value="preloader" />
+    <MESSAGE value="--API" />
+    <option name="LAST_COMMIT_MESSAGE" value="--API" />
   </component>
 </project>
